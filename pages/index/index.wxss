@@ -1,0 +1,6 @@
+.demoStyle{
+  height:140rpx;border-bottom:1rpx solid #dadada;border-top:1rpx solid #dadada;
+}
+.cellStyle{
+  height:90rpx;border-bottom:1rpx solid #dadada;display:flex;align-items:center;margin-left:20rpx;font-size:28rpx;
+}

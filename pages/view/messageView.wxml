@@ -1,0 +1,8 @@
+<import src="../../module/messageView.wxml" />
+
+<view class="flex_Center backgroundViewStyle" style="">
+  <view class="flex_Center demoButtonStyle" bindtap="onClickButton">文字提示</view>
+</view>
+
+
+<template is="UI-toast" data="{{ toastShow:toastShow, title: title }}"></template>

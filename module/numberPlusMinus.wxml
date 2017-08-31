@@ -1,0 +1,9 @@
+<template name="quantity">
+  <view class="quantityViewStyle">
+    <view class="minusStyle" style="color:{{num==1?'#DADADA':white}}" bindtap="onTapMinus">-</view>
+    <view class="inputViewStyle">
+      <input class="inputView1Style" style="height:54rpx;" value="{{num}}" type="number" maxlength="2" bindinput="onInputNum" bindblur="lossFocus" />
+    </view>
+    <view class="plusStyle" style="color:{{num==totalNum?'#DADADA':white}}" bindtap="onTapPlus">+</view>
+  </view>
+</template>

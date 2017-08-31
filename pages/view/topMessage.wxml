@@ -1,0 +1,8 @@
+<import src="../../module/topMessage.wxml" />
+
+<view class="flex_Center backgroundViewStyle" style="">
+  <view class="flex_Center demoButtonStyle" bindtap="onClickButton">查看顶部提示</view>
+</view>
+
+
+<template is="zan-toptips" data="{{ isTopTips:isTopTips, TopTipscontent:TopTipscontent}}"></template>

@@ -1,0 +1,29 @@
+.quantityViewStyle {
+  display:flex;border:0rpx solid #DADADA;border-radius:6rpx;
+}
+.minusStyle {
+  height:58rpx;width:60rpx;border-right:0rpx solid #DADADA;display:flex;justify-content:center;align-items:center;
+}
+.plusStyle {
+  height:58rpx;width:60rpx;display:flex;justify-content:center;align-items:center;
+}
+.inputViewStyle {
+  height:58rpx;width:80rpx;border-right:0rpx solid #DADADA;
+}
+.inputView1Style {
+  width:80rpx;text-align:center;font-size:26rpx;background:white;
+}
+.backgroundViewStyle{
+  margin-top:30rpx;background:white;height:500rpx;flex-direction:column;
+}
+.demoButtonStyle{
+  background-color:#3CB371;width:60%;height:100rpx;color:#fff;
+}
+.nextStyle {
+  width:100%;height:100rpx;background-color:#3CB371;color:#fff;font-size:34rpx;position:fixed;bottom:0px;display:flex;align-items:center;
+  justify-content:center;
+}
+.UI-toast {
+  position: fixed;top: 35%;left: 20%;transform: translateZ(0) translateY(-100%);background: rgba(0, 0, 0, 0.7);color: #fff;font-size: 14px;width: 60%;line-height: 1.5em;margin: 0 auto;box-sizing: border-box;
+  padding: 10px;text-align: center;border-radius: 4px;z-index: 100;
+}

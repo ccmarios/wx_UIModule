@@ -1,0 +1,3 @@
+<template name="UI-toast">
+  <view class="UI-toast" wx:if="{{ toastShow }}">{{title}}</view>
+</template>

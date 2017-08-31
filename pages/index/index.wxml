@@ -1,0 +1,12 @@
+<view>
+
+  <view class="flex_Center demoStyle">Demo展示</view>
+  <view>
+    <navigator wx:for="{{dataSource}}" url="{{item.path}}">
+      <view class="cellStyle">{{item.name}}</view>
+    </navigator>
+  </view>
+
+</view>
+
+

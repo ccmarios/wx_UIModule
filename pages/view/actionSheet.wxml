@@ -1,0 +1,9 @@
+<import src="../../module/actionSheet.wxml" />
+
+<view class="flex_Center backgroundViewStyle" style="">
+  <view data-index="0" class="flex_Center demoButtonStyle" bindtap="onClickButton">底部弹出</view>
+  <view data-index="1" class="flex_Center demoButtonStyle" style="margin-top:30rpx;" bindtap="onClickButton">居中</view>
+</view>
+
+<template is="diaView" data="{{showDialog:showDialog}}" />
+<template is="diaCenterView" data="{{showCenterDialog:showCenterDialog}}" />

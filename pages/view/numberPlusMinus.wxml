@@ -1,0 +1,10 @@
+<import src="../../module/numberPlusMinus.wxml" />
+<import src="../../module/messageView.wxml" />
+
+<view class="flex_Center backgroundViewStyle">
+  <template is="quantity" data="{{num:num,totalNum:totalNum}}" />
+</view>
+
+<view class="nextStyle" bindtap="onClickButton">添加购物车</view>
+
+<template is="UI-toast" data="{{ toastShow:toastShow, title: title }}"></template>

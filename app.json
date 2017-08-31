@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/about/index",
+    "pages/view/actionSheet",
+    "pages/view/pwdInput",
+    "pages/view/numberPlusMinus",
+    "pages/view/messageView",
+    "pages/view/topMessage"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "demo",
+      "iconPath": "images/iconfont-demo.png",
+      "selectedIconPath": "images/iconfont-demo-active.png"
+    },
+    {
+      "pagePath": "pages/about/index",
+      "text": "about",
+      "iconPath": "images/iconfont-about.png",
+      "selectedIconPath": "images/iconfont-about-active.png"
+    }]
+  }
+}
+
+
