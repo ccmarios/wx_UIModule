@@ -1,0 +1,17 @@
+<import src="../../module/star.wxml" />
+
+
+<view class="weui-cell">
+    <view class="weui-cell__bd">set default score = 5</view>
+    <view class="weui-cell__ft">
+        <template is="rater" data="{{ ...$wux.rater.star }}" />
+    </view>
+</view>
+
+
+<view class="weui-cell">
+    <view class="weui-cell__bd">change color</view>
+    <view class="weui-cell__ft">
+        <template is="rater" data="{{ ...$wux.rater.changeColor }}" />
+    </view>
+</view>

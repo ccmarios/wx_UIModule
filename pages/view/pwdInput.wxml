@@ -1,4 +1,5 @@
 <import src="../../module/pwdInput.wxml" />
+<import src="../../module/messageView.wxml" />
 
 <view class="backgroundViewStyle">
     <view class="leftRightMarginStyle">

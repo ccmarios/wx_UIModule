@@ -2,7 +2,8 @@ var app = getApp()
 
 Page({
   data: {
-    userInfo: {}
+    userInfo: {'avatarUrl':'../../images/headIcon.png'},
+    gitUrl: 'https://github.com/ccmarios/wx_UIModule'
   },
   onLoad: function (options) {
     let that = this
@@ -34,5 +35,26 @@ Page({
   },
   onShareAppMessage: function () {
   
+  },
+  isShowToast: function (title) {
+    this.setData({
+      toastShow: true,
+      title: title
+    });
+    var that = this;
+    setTimeout(function () {
+      that.setData({
+        toastShow: false
+      });
+    }, 1500);
+  },
+  onClickCopy:function(){
+    let that = this;
+    wx.setClipboardData({
+      data: that.data.gitUrl,
+      success: function (res) {
+        that.isShowToast('复制成功，快去点赞吧~~');
+      }
+    });
   }
 })

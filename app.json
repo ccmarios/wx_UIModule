@@ -7,7 +7,8 @@
     "pages/view/numberPlusMinus",
     "pages/view/messageView",
     "pages/view/topMessage",
-    "pages/view/badge"
+    "pages/view/badge",
+    "pages/view/star"
   ],
   "window":{
     "backgroundTextStyle":"light",

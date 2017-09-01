@@ -1,1 +1,14 @@
-<view class="">{{userInfo.nickName}}</view>
+<import src="../../module/messageView.wxml" />
+
+<view class="flex_Center backgroundViewStyle">
+    <image src="{{userInfo.avatarUrl}}" class="headIconStyle"></image>
+    <view style="margin-top:30rpx;">{{userInfo.nickName}}</view>
+</view>
+
+<view class="flex_Center" style="font-size:30rpx;flex-direction:column;">
+    <view>如果你觉得不错，欢迎点赞~</view>
+    <view style="margin-top:20rpx;">{{gitUrl}}</view>
+    <view class="flex_Center aButtonStyle" bindtap='onClickCopy'>点击复制链接</view>
+</view>
+
+<template is="UI-toast" data="{{ toastShow:toastShow, title: title }}"></template>
