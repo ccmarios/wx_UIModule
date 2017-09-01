@@ -1,4 +1,4 @@
-<import src="../../module/actionSheet.wxml" />
+<import src="../../module/Dialog.wxml" />
 
 <view class="flex_Center backgroundViewStyle" style="">
   <view data-index="0" class="flex_Center demoButtonStyle" bindtap="onClickButton">底部弹出</view>

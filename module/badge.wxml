@@ -1,0 +1,7 @@
+<template name="badge">
+  <view class="demo__item">
+    <view class="demo__icon badge">
+        <view wx:if="{{number > 0}}" class="badge__count">{{number > 99 ? '99+' : number}}</view>
+    </view>
+</view>
+</template>

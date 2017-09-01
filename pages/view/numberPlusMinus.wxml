@@ -1,9 +1,42 @@
 <import src="../../module/numberPlusMinus.wxml" />
 <import src="../../module/messageView.wxml" />
 
-<view class="flex_Center backgroundViewStyle">
-  <template is="quantity" data="{{num:num,totalNum:totalNum}}" />
+<view class="panel">
+    <view class="card">
+        <view class="card__thumb">
+            <image class="card__img" src="https://img.yzcdn.cn/upload_files/2016/11/25/FpqPXlrMRjKwJs8VdTu3ZDJCj4j5.jpeg?imageView2/2/w/200/h/200/q/90/format/jpeg" mode="aspectFit"></image>
+        </view>
+        <view class="card__detail">
+
+            <view class="card__detail-row">
+                <view class="card__right-col">¥ 999.99</view>
+                <view class="card__left-col ellipsis--l2">
+                    红烧牛肉【虚拟商品】【有库存】【有sku】
+                </view>
+            </view>
+
+            <view class="card__detail-row c-gray-darker">
+                <view class="card__right-col">
+                    <template is="quantity" data="{{num:num,totalNum:totalNum}}" />
+                </view>
+
+                <view class="card__left-col">
+                    3000克 50%
+                </view>
+            </view>
+
+            <view class="card__detail-row c-gray-darker">
+                <view class="card__left-col c-red">已发货</view>
+            </view>
+
+        </view>
+    </view>
 </view>
+
+
+
+
+
 
 <view class="nextStyle" bindtap="onClickButton">添加购物车</view>
 

@@ -13,7 +13,7 @@
   justify-content:center;
 }
 .backgroundViewStyle{
-  background:white;margin-top:30rpx;
+  background:white;margin-top:30rpx;border-top:1rpx solid #e5e5e5;
 }
 .headTextStyle{
   font-size:30rpx;color:#333;font-weight:bold;

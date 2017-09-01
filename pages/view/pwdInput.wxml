@@ -1,16 +1,9 @@
-<import src="../../module/messageView.wxml" />
+<import src="../../module/pwdInput.wxml" />
 
 <view class="backgroundViewStyle">
-  <view class="leftRightMarginStyle">
-    <view class="headTextStyle">请输入密码</view>
-    <view class="pwdInputStyle">
-      <input class="pas_input" type="number" maxlength="6" focus="true" bindinput="onChangeInput" />
-      <block wx:for="{{[0,1,2,3,4,5]}}">
-        <view class="itemStyle flex_Center">
-          <view wx:if="{{passWordArr[item] == true}}" class="PwdStyle"></view>
-        </view>
-      </block>
-    </view>
+    <view class="leftRightMarginStyle">
+        <view class="headTextStyle">请输入密码</view>
+        <template is="pwdInput" data="{{passWordArr: passWordArr}}"></template>
   </view>
 </view>
 

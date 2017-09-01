@@ -1,0 +1,45 @@
+.demo {
+  padding: 40px 0;
+  display: flex;
+}
+.demo__item {
+  flex: 1;
+  margin-left:40rpx;
+}
+.demo__icon {
+  margin: 0 auto;
+  width: 48px;
+  height: 48px;
+  background: #ddd;
+  border-radius: 4px;
+}
+.badge {
+  position: relative;
+}
+.badge__count {
+  position: absolute;
+  top: -8px;
+  right: 0px;
+  height: 1.6em;
+  min-width: 1.6em;
+  line-height: 1.6;
+  padding: 0 .4em;
+  font-size: 10px;
+  font-family: tahoma;
+  border-radius: .8em;
+  background: #FF4444;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  transform: translateX(50%);
+  transform-origin: -10% center;
+  z-index: 10;
+  box-shadow: 0 0 0 1px #fff;
+  box-sizing: border-box;
+}
+.backgroundViewStyle{
+  margin-top:30rpx;background:white;height:500rpx;flex-direction:column;border-top:1rpx solid #e5e5e5;
+}
+.demoButtonStyle{
+  background-color:#3CB371;width:60%;height:100rpx;color:#fff;
+}

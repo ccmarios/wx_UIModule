@@ -1,32 +1,32 @@
 .backgroundViewStyle{
-  margin-top:30rpx;background:white;height:500rpx;flex-direction:column;
+  margin-top:30rpx;background:white;height:500rpx;flex-direction:column;border-top:1rpx solid #e5e5e5;
 }
 .demoButtonStyle{
   background-color:#3CB371;width:60%;height:100rpx;color:#fff;
 }
 
-.zan_dialog_mask {
+.dialog_mask {
   position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 10;background: rgba(0, 0, 0, 0.5);display: none;
 }
-.zan_dialog_container {
+.dialog_container {
   position: fixed;bottom: 0;width: 750rpx;background: white;transform: translateY(150%);transition: all 0.4s ease;z-index: 11;
 }
-.zan_dialog_show .zan_dialog_container {
+.dialog_show .dialog_container {
   transform: translateY(0);
 }
-.zan_dialog_show .zan_dialog_mask {
+.dialog_show .dialog_mask {
   display: block;
 }
 
-.zan-dialog__mask {
+.dialog__mask {
   position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 10;background: rgba(0, 0, 0, 0.5);display: none;
 }
-.zan-dialog__container {
+.dialog__container {
   position: fixed;bottom: 0;width: 750rpx;transform: translateY(150%);transition: all 0.4s ease;z-index: 11;height:100%;
 }
-.zan-dialog--show .zan-dialog__container {
+.dialog--show .dialog__container {
   transform: translateY(0);
 }
-.zan-dialog--show .zan-dialog__mask {
+.dialog--show .dialog__mask {
   display: block;
 }

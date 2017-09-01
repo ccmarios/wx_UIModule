@@ -1,4 +1,3 @@
-// pages/view/actionSheet.js
 Page({
   data: {
     showDialog: false,

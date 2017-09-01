@@ -1,13 +1,13 @@
 Page({
   data: {
-    num: 1,
-    totalNum: 10
+    num: 1,         //默认选择数量
+    totalNum: 10,   //数量选择上限
   },
   onLoad: function (options) {
-  
+
   },
   onShow: function () {
-  
+
   },
   onTapMinus: function () {
     //减号点击
@@ -30,9 +30,8 @@ Page({
     this.inputFunc('loss', Number(e.detail.value));
   },
   plusMinus: function (pars) {
-    let totalNum = this.data.totalNum;    //上限
-    let num = this.data.num;    //当前操作数
-
+    let totalNum = this.data.totalNum;
+    let num = this.data.num;
     if (pars == "plus" && num == 1) {
       num++;
     } else if (pars == "minus" && num == totalNum) {
@@ -45,8 +44,7 @@ Page({
     });
   },
   inputFunc: function (pars, evalue) {
-    let totalNum = this.data.totalNum;    //当前优惠券总数量
-
+    let totalNum = this.data.totalNum;
     if (pars == 'input') {
       if (evalue.length == 1 && evalue[0] == 0) { evalue = 1; }
     } else {
@@ -60,8 +58,8 @@ Page({
       num: evalue
     });
   },
-  onClickButton: function(){
-    this.isShowToast(this.data.num);
+  onClickButton: function () {
+    this.isShowToast(this.data.num + '个商品添加成功~');
   },
   isShowToast: function (title) {
     this.setData({

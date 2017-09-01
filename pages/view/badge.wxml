@@ -1,0 +1,13 @@
+<import src="../../module/badge.wxml" />
+
+<view class="flex_Center backgroundViewStyle">
+    <view class="demo">
+
+        <block wx:for="{{dataSource}}">
+            <template is="badge" data="{{number:item}}" />
+        </block>
+
+    </view>
+</view>
+
+<view style="font-size:26rpx;color:#333;margin-top:60rpx;margin-left:30rpx;margin-right:30rpx;">注：默认0不展示角标，大于99显示99+，如有其它需求，自行修改！</view>

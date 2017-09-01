@@ -3,7 +3,7 @@
   padding: 10px;text-align: center;border-radius: 4px;z-index: 100;
 }
 .backgroundViewStyle{
-  margin-top:30rpx;background:white;height:500rpx;flex-direction:column;
+  margin-top:30rpx;background:white;height:500rpx;flex-direction:column;border-top:1rpx solid #e5e5e5;
 }
 .demoButtonStyle{
   background-color:#3CB371;width:60%;height:100rpx;color:#fff;

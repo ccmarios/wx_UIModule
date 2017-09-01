@@ -2,11 +2,12 @@
   "pages":[
     "pages/index/index",
     "pages/about/index",
-    "pages/view/actionSheet",
+    "pages/view/Dialog",
     "pages/view/pwdInput",
     "pages/view/numberPlusMinus",
     "pages/view/messageView",
-    "pages/view/topMessage"
+    "pages/view/topMessage",
+    "pages/view/badge"
   ],
   "window":{
     "backgroundTextStyle":"light",

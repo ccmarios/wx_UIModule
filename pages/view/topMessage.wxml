@@ -5,4 +5,4 @@
 </view>
 
 
-<template is="zan-toptips" data="{{ isTopTips:isTopTips, TopTipscontent:TopTipscontent}}"></template>
+<template is="toptips" data="{{ isTopTips:isTopTips, TopTipscontent:TopTipscontent}}"></template>

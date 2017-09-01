@@ -1,10 +1,10 @@
 .backgroundViewStyle{
-  margin-top:30rpx;background:white;height:500rpx;flex-direction:column;
+  margin-top:30rpx;background:white;height:500rpx;flex-direction:column;border-top:1rpx solid #e5e5e5;
 }
 .demoButtonStyle{
   background-color:#3CB371;width:60%;height:100rpx;color:#fff;
 }
-.zan-toptips {
+.toptips {
   display: block;
   position: fixed;
   -webkit-transform: translateZ(0) translateY(-100%);
@@ -21,6 +21,6 @@
   /* 动画部分 */
   transition: all 0.4s ease;
 }
-.zan-toptips--show {
+.toptips--show {
   -webkit-transform: translateZ(0) translateY(0);
 }

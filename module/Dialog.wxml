@@ -1,0 +1,26 @@
+<template name="diaView">
+  <view class="dialog {{ showDialog ? 'dialog_show' : '' }}">
+    <view class="dialog_mask" bindtap="onClickdiaView" />
+    <view class="dialog_container">
+
+      <!--  //此区域自定义视图  -->
+      <view class="flex_Center" style="height:500rpx;background:white;"> 
+        <view style="color:#333;font-size:30rpx;">自定义视图</view>
+      </view>
+
+    </view>
+  </view>
+</template>
+
+
+<template name="diaCenterView">
+  <view class="dialog {{ showCenterDialog ? 'dialog--show' : '' }}">
+    <view class="dialog__mask"/>
+     <view class="dialog__container" style="display:flex;align-items:center;justify-content:center;flex-direction:column;" bindtap='onClickdiaCenterView'> 
+
+        <!--  //此区域自定义视图  -->
+        <view class="flex_Center" style="width:600rpx;height:400rpx;background:white;color:#333;font-size:30rpx;border-radius:20rpx;">自定义视图</view>
+
+    </view> 
+  </view>
+</template>
