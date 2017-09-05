@@ -14,9 +14,6 @@ Page({
   onUnload: function () {
     clearTimeout(timer);
   },
-  showTopTips() {
-    this.showZanTopTips('toptips的内容');
-  },
   onClickButton: function(){
     let that = this;
     that.setData({

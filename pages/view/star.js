@@ -70,7 +70,5 @@ Page({
     this.setData({
       starText: starText
     });
-
-
   }
 })

@@ -1,9 +1,10 @@
+<import src="../../module/star.wxml" />
 <view  style="margin-top:40rpx;margin-left:10rpx;color:#333;font-size:32rpx;border-bottom:1rpx solid #eeeeee;">默认样式</view>
 
 <view class="flex_Center" style="margin-left:20rpx;height:80rpx;border-bottom:1rpx solid #eeeeee;font-size:30rpx;">
-  <block wx:for="{{[0,1,2,3,4]}}" wx:for-index="idx">
+   <block wx:for="{{[0,1,2,3,4]}}" wx:for-index="idx">
     <view data-index="{{idx}}" class="flex_Center" style="height:50rpx;width:50rpx;font-size:50rpx;color:{{dataSource_One[idx] == true ? '#fc6' : '#ccc'}};" bindtap='onClickStar_One'>★</view>
-  </block>
+  </block> 
 </view>
 
 <view class="flex_Center" style="margin-left:20rpx;height:80rpx;border-bottom:1rpx solid #eeeeee;font-size:30rpx;">
