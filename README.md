@@ -9,6 +9,10 @@ git clone https://github.com/ccmarios/wx_UIModule.git
 ```
 
 注：本项目基础库版本为1.5.2，如运行失败，请尝试升级更新【微信开发者工具】。
+
+## 声明
+转载请注明原创地址：https://github.com/ccmarios/wx_UIModule.git
+请尊重作者的劳动成果，尽管不写我也不能把你怎么样~
 ***
 ## 底部弹出视图
 ![Dialog.gif](http://upload-images.jianshu.io/upload_images/1374689-9bda57f9dc39da9f.gif?imageMogr2/auto-orient/strip)
