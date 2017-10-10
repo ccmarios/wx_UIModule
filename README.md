@@ -16,7 +16,7 @@ git clone https://github.com/ccmarios/wx_UIModule.git
 请尊重作者的劳动成果，尽管不写我也不能把你怎么样~
 ***
 
-![wx_UIModule.png](http://upload-images.jianshu.io/upload_images/1374689-d08e7957522be8a9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/640)
+![wx_UIModule.png](http://upload-images.jianshu.io/upload_images/1374689-d08e7957522be8a9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/440)
 
 ## 底部弹出视图
 ![Dialog.gif](http://upload-images.jianshu.io/upload_images/1374689-9bda57f9dc39da9f.gif?imageMogr2/auto-orient/strip)
@@ -125,6 +125,9 @@ z-index + transition搞定~
 五角星和心形图案在搜狗输入法找的😜，大小改变设置font-size，颜色改变设置color。我用了一个数组存评分数据，点击了第几个图案，数组存几个true，根据true/false展示不同的颜色。
 * ###### 如何复用到你的项目
 好吧，这个没有模板！因为用了不同的数据源，懒得抽方法了😒   需要的同学，自己写一下吧~😳
+***
+#参考项目
+https://github.com/youzan/zanui-weapp、https://github.com/xiaolin3303/wx-charts、https://github.com/icindy/wxParse
 ***
 # 结束语
 如果你有更好的处理方案，欢迎交流~
