@@ -1,0 +1,5 @@
+@import "/wxParser/index.wxss";
+
+.messageText{
+  font-size:26rpx;color:#333;margin-top:60rpx;margin-left:30rpx;margin-right:30rpx;
+}

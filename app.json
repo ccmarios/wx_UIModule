@@ -8,7 +8,10 @@
     "pages/view/messageView",
     "pages/view/topMessage",
     "pages/view/badge",
-    "pages/view/star"
+    "pages/view/star",
+    "pages/view/chart",
+    "pages/view/chart_view",
+    "pages/view/rich_text"
   ],
   "window":{
     "backgroundTextStyle":"light",

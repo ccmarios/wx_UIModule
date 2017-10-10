@@ -1,0 +1,13 @@
+<import src="../../module/Dialog.wxml" />
+
+<view class="flex_Center backgroundViewStyle">
+  <view data-index="0" class="flex_Center demoButtonStyle" bindtap="onClickButton">线形图</view>
+  <view data-index="1" class="flex_Center demoButtonStyle" bindtap="onClickButton">线形滚动图</view>
+  <view data-index="2" class="flex_Center demoButtonStyle" bindtap="onClickButton">柱状图</view>
+  <view data-index="3" class="flex_Center demoButtonStyle" bindtap="onClickButton">饼图</view>
+  <view data-index="4" class="flex_Center demoButtonStyle" bindtap="onClickButton">圆环图</view>
+  <view data-index="5" class="flex_Center demoButtonStyle" bindtap="onClickButton">区域图</view>
+  <view data-index="6" class="flex_Center demoButtonStyle" bindtap="onClickButton">雷达图</view>
+</view>
+
+<view class="messageText">参考项目：https://github.com/xiaolin3303/wx-charts</view>

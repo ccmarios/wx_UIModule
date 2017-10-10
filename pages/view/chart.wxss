@@ -1,0 +1,35 @@
+.backgroundViewStyle{
+  margin-top:30rpx;background:white;height:100%;flex-direction:column;border-top:1rpx solid #e5e5e5;
+}
+.demoButtonStyle{
+  background-color:#3CB371;width:60%;height:100rpx;color:#fff;margin-top:30rpx;
+}
+
+.dialog_mask {
+  position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 10;background: rgba(0, 0, 0, 0.5);display: none;
+}
+.dialog_container {
+  position: fixed;bottom: 0;width: 750rpx;background: white;transform: translateY(150%);transition: all 0.4s ease;z-index: 11;
+}
+.dialog_show .dialog_container {
+  transform: translateY(0);
+}
+.dialog_show .dialog_mask {
+  display: block;
+}
+
+.dialog__mask {
+  position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 10;background: rgba(0, 0, 0, 0.5);display: none;
+}
+.dialog__container {
+  position: fixed;bottom: 0;width: 750rpx;transform: translateY(150%);transition: all 0.4s ease;z-index: 11;height:100%;
+}
+.dialog--show .dialog__container {
+  transform: translateY(0);
+}
+.dialog--show .dialog__mask {
+  display: block;
+}
+.messageText{
+  font-size:26rpx;color:#333;margin-top:60rpx;margin-left:30rpx;margin-right:30rpx;
+}

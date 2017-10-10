@@ -1,0 +1,58 @@
+
+<block wx:if="{{chartType == 0}}">
+  <view class="container">
+    <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+    <button type="primary" style='margin-top:100rpx;font-size:30rpx;background:#3CB371;' bindtap="updateData">更新数据</button>
+  </view>
+</block>
+
+
+<block wx:if="{{chartType == 1}}">
+  <view class="container">
+    <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler" bindtouchmove="moveHandler" bindtouchend="touchEndHandler"></canvas>
+    <view style="margin-top:30px;text-align:center;font-size:30rpx;">拖动图表查看</view>
+  </view>
+</block>
+
+
+
+<block wx:if="{{chartType == 2}}">
+  <view class="container">
+    <view class="title">
+       <view wx:if="{{!isMainChartDisplay}}" class="flex_Center back-btn" bindtap="backToMainChart">返回</view> 
+      {{chartTitle}}
+    </view>
+    <canvas canvas-id="columnCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+    <view style="text-align:center;font-size:30rpx;">点击数据每一项查看详情</view>
+  </view>
+</block>
+
+
+<block wx:if="{{chartType == 3}}">
+  <view class="container">
+    <canvas canvas-id="pieCanvas" class="canvas" style="height:300px" bindtouchstart="touchHandler"></canvas>
+  </view>
+</block>
+
+
+<block wx:if="{{chartType == 4}}">
+  <view class="container">
+    <canvas canvas-id="ringCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+    <view class="messageText">调用stopAnimation终止动画，并监听渲染完成事件</view>
+    <button type="primary" bindtap="updateData" style="margin-top:30rpx;font-size:30rpx;background:#3CB371;">更新title</button>
+  </view>
+</block>
+
+
+<block wx:if="{{chartType == 5}}">
+  <view class="container">
+    <canvas canvas-id="areaCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+  </view>
+</block>
+
+
+<block wx:if="{{chartType == 6}}">
+  <view class="container">
+    <canvas canvas-id="radarCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+  </view>
+</block>
