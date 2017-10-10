@@ -1,20 +1,23 @@
 ## 概述
 [wx_UIModule]结合了微信的视觉规范，为用户提供更加统一的使用感受。
 
-包含 底部弹出视图(Dialog)、支付密码输入框(PassWordInput)、商品数量加减(Quantity)、提示消息(Toast)、顶部提示(Toptip)、角标(Badge)、星级评分(Rater) 共计 7 类组件或元素。
+包含 底部弹出视图(Dialog)、支付密码输入框(PassWordInput)、商品数量加减(Quantity)、提示消息(Toast)、顶部提示(Toptip)、角标(Badge)、星级评分(Rater)、图表(Charts)、富文本解析(RichText)共计 9 类组件或元素。
 
 ## 下载
 ``` bash
 git clone https://github.com/ccmarios/wx_UIModule.git
 ```
 
-注：本项目基础库版本为1.5.2，如运行失败，请尝试升级更新【微信开发者工具】。
+注：本项目基础库版本为1.5.4，如运行失败，请尝试升级更新【微信开发者工具】。
 
 ## 声明
 转载请注明原创地址：https://github.com/ccmarios/wx_UIModule.git
 
 请尊重作者的劳动成果，尽管不写我也不能把你怎么样~
 ***
+
+![wx_UIModule.png](http://upload-images.jianshu.io/upload_images/1374689-d08e7957522be8a9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/640)
+
 ## 底部弹出视图
 ![Dialog.gif](http://upload-images.jianshu.io/upload_images/1374689-9bda57f9dc39da9f.gif?imageMogr2/auto-orient/strip)
 * ###### 实现思路
