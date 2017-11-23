@@ -1,0 +1,15 @@
+<import src="/welCropper/welCropper" /> 
+ 
+<view class="flex_Center backgroundViewStyle" style="">
+  <view data-index="0" class="flex_Center demoButtonStyle" bindtap="onClickSelect">点击选择图片</view>
+</view>
+
+<view class="messageText">操作说明：选择图片->完成->长按保存图片</view>
+<view class="messageText">参考项目：https://github.com/tomfriwel/welCropper</view>
+
+<template is="welCropper" data="{{data:cropperData, cropperMovableItems:cropperMovableItems, cropperChangableData:cropperChangableData}}"> </template>
+
+
+
+
+

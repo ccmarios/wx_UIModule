@@ -11,7 +11,8 @@
     "pages/view/star",
     "pages/view/chart",
     "pages/view/chart_view",
-    "pages/view/rich_text"
+    "pages/view/rich_text",
+    "pages/view/screen"
   ],
   "window":{
     "backgroundTextStyle":"light",
